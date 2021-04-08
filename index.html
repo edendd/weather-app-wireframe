@@ -8,62 +8,76 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1>SAINT-LOUIS</h1>
-      <h2>55° °F/C 🌅</h2>
+    <div  class="container">
+      <div class = "weather-app" id ='gradient-custom'>
+      <h1>SAINT-LOUIS, Missouri</h1>
+     
+      <h2 id="dateView">Tue Aug 13, 10:00, 2019</h2>
 
-<h3 class=" ">Temprature: 0% <br>
+        <h2>
+          <span id="Temp">55</span>°<a href="#" id="Flink">F</a>/<a href="#" id="Clink">C</a> 🌅
+        </h2>
+    
+
+<h3 class="values">Temprature: 0% <br>
     Precipitation: 9MPH <br>
     Humidity: 68%</h3>
-    <div class="container">
-        <form class="form-inline">
-            <div class="form-group mx-sm-5 mb-2">
-              <input type="Search" class="form-control" id="words" placeholder="search">
+  
+
+    <div class="search-container" id="search">
+       
+      <form class="form-inline">
+            <div class="form-group mb-2">
+              <input type="Search" 
+               class="form-control-plaintext" 
+               id="search-input" 
+               autocomplete="off"
+               
+               placeholder = "Enter City Name ...">
+               
             </div>
             <button type="submit" class="btn btn-primary mb-2">SEARCH</button>
           </form>
        
       </div>
       
-
 <div class="row">
-<div class="col-2">Fri</div>
-<div class="col-2">Sat</div>
-<div class="col-2">Sun</div>
-<div class="col-2">Mon</div>
-<div class="col-2">Tue</div>
-<div class="col-2">Wed</div>
+ 
+   
+<div class="col-3">Fri</div>
+<div class="col-3">Sat</div>
+<div class="col-3">Sun</div>
+<div class="col-3">Mon</div>
+
 
 </div>
 <div class="row">
-    <div class="col-2">53°</div>
-    <div class="col-2">56°</div>
-    <div class="col-2">63°</div>
-    <div class="col-2">60°</div>
-    <div class="col-2">64°</div>
-    <div class="col-2">62°</div>
+    <div class="col-3">53°</div>
+    <div class="col-3">56°</div>
+    <div class="col-3">63°</div>
+    <div class="col-3">60°</div>
+    
     
 </div>
 <div class="row">
-    <div class="col-2">32°</div>
-    <div class="col-2">41°</div>
-    <div class="col-2">46°</div>
-    <div class="col-2">52°</div>
-    <div class="col-2">48°</div>
-    <div class="col-2">51°</div>
+    <div class="col-3">32°</div>
+    <div class="col-3">41°</div>
+    <div class="col-3">46°</div>
+    <div class="col-3">52°</div>
+    
     
 </div>
 
 <div class="row">
-    <div  class="col-2">⛅ </div>
-    <div  class="col-2">🌅  </div>
-    <div  class="col-2">🌅 </div>
-    <div  class="col-2">🌧 </div>
-    <div  class="col-2">🌅 </div>
-    <div class="col-2">🌅 </div>
+    <div  class="col-3">⛅ </div>
+    <div  class="col-3">🌅  </div>
+    <div  class="col-3">🌅 </div>
+    <div  class="col-3">⛅ </div>
     
+      
 </div>
     </div>
+  </div>
     <script src="script.js"></script>
   </body>
 </html>
